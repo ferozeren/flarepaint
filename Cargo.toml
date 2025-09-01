@@ -4,8 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-winit = "0.30.12"
-# log = { version = "*", features = ["max_level_debug", "release_max_level_warn"] }
+makepad-widgets = "1.0.0"
 
 
 [profile.dev]

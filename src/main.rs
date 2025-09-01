@@ -1,3 +1,3 @@
 fn main() {
-    println!("todo!!");
+    ::flarepaint::app::app_main()
 }
