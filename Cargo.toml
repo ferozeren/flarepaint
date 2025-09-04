@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-makepad-widgets = "1.0.0"
+# iced = { version = "0.12", features = ["canvas", "debug"] }
+iced = "0.12"
 
 
 [profile.dev]
@@ -27,5 +28,4 @@ panic = "abort"
 [profile.wasm-release]
 inherits = "release"
 opt-level = "z"
-# Strip all debugging information from the binary to slightly reduce file size.
 strip = true
